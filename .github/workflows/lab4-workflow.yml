@@ -5,7 +5,7 @@ on:
     types: published
 jobs:
     npm-package:
-      permisions: 
+      permissions: 
         packages: write
       runs-on: ubuntu-latest
       steps:
